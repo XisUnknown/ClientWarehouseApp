@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Payment">
+   <children>
+      <AnchorPane prefHeight="181.0" prefWidth="271.0">
+         <children>
+            <RadioButton fx:id="advancePaymentButton" layoutX="112.0" layoutY="49.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="152.0" text="Advance Payment -5%" />
+            <RadioButton fx:id="onDeliveryButton" layoutX="9.0" layoutY="49.0" mnemonicParsing="false" text="On Delivery" />
+            <Label layoutX="9.0" layoutY="7.0" prefHeight="32.0" prefWidth="103.0" text="Payment Options:" />
+            <Label layoutX="9.0" layoutY="83.0" text="Delivery Options:" />
+            <RadioButton fx:id="upsButton" layoutX="7.0" layoutY="118.0" mnemonicParsing="false" text="UPS" />
+            <RadioButton fx:id="dhlButton" layoutX="111.0" layoutY="118.0" mnemonicParsing="false" text="DHL" />
+            <RadioButton fx:id="postButton" layoutX="7.0" layoutY="152.0" mnemonicParsing="false" text="Post" />
+            <RadioButton fx:id="glsButton" layoutX="112.0" layoutY="152.0" mnemonicParsing="false" text="GLS" />
+            <Button fx:id="returnButtonPayment" layoutX="206.0" layoutY="106.0" mnemonicParsing="false" onAction="#closeWindowPayment" text="Return" />
+            <Button layoutX="202.0" layoutY="148.0" mnemonicParsing="false" onAction="#proceedToOrderingConfirmation" text="Proceed" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
