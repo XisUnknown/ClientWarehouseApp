@@ -2,9 +2,6 @@ package SQLConnectionPackage;
 
 import javafx.scene.control.TableView;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-
 public class SelectFromTableClass {
     public static String[] parseFromMultiColumnTable(TableView tableView){
         String selectedItem = tableView.getSelectionModel().getSelectedItem().toString();
