@@ -18,10 +18,10 @@ Add to VM-Options:
 
 ### Screenshots
 
-![image](/Client1.PNG)
+![image](/Client1.JPG)
 Client-App
 
-![image](/Warehouse1.PNG)
+![image](/Warehouse1.JPG)
 Warehouse-App
 
 ## Authors
