@@ -18,7 +18,11 @@ Add to VM-Options:
 
 ### Screenshots
 
-![image](/SQLInterface.PNG)
+![image](/Client1.PNG)
+Client-App
+
+![image](/Warehouse1.PNG)
+Warehouse-App
 
 ## Authors
 
