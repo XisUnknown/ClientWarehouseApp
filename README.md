@@ -1,4 +1,4 @@
-# ClientWarehaouse App
+# ClientWarehouse App
 
 This are two apps which share the same database. 
 
